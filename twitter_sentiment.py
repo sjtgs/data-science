@@ -27,3 +27,5 @@ for tweet in public_tweets:
     print(tweet.text)
     analysis = TextBlob(tweet.text)
     print(analysis.sentiment)
+
+#To run the application inside the terminal python twitter_sentiment.py
