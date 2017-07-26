@@ -7,7 +7,7 @@ year = [1994 , 1995, 1996,1997 , 1998, 1999,2000,2001, 2002, 2003,2004,2005,2006
 age = [1, 2, 3, 5, 6, 7 , 8, 9 , 10, 11 , 12, 13, 14 , 15, 16, 17, 18, 19, 20]
 
 #assign what to plot
-plt.plot(year,age)
+plt.hist(year,age)
 
 # Display the plot with plt.show()
 plt.show()
